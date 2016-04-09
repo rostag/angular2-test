@@ -1,7 +1,7 @@
 import {bootstrap} from 'angular2/platform/browser';
-import {HeroesComponent} from './heroes.component';
+import {AppComponent} from './app.component';
 
-bootstrap(HeroesComponent);
+bootstrap(AppComponent);
 
 /*
 Copyright 2016 Google Inc. All Rights Reserved.
