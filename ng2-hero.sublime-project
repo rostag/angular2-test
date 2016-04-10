@@ -1,0 +1,10 @@
+{
+	"folders":
+	[
+		{
+			"path": "/Users/rost/dev/angular2-5min",
+    		"file_exclude_patterns": ["*.js", "*.map", "*.sublime-workspace", "*.sublime-project"],
+    		"folder_exclude_patterns": ["node_modules*", "typings"]
+		}
+	]
+}

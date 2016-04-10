@@ -27,7 +27,10 @@ System.register(['angular2/core', './mock-heroes'], function(exports_1, context_
                 HeroService.prototype.getHeroes = function () {
                     return Promise.resolve(mock_heroes_1.HEROES);
                 };
-                // See the "Take it slow" appendix
+                HeroService.prototype.getHero = function (id) {
+                    return Promise.resolve(mock_heroes_1.HEROES).then(function (heroes) { return heroes.filter(function (hero) { return hero.id === id; })[0]; });
+                };
+                // Slow connection simulation:
                 HeroService.prototype.getHeroesSlowly = function () {
                     return new Promise(function (resolve) {
                         return setTimeout(function () { return resolve(mock_heroes_1.HEROES); }, 2000);
@@ -45,9 +48,4 @@ System.register(['angular2/core', './mock-heroes'], function(exports_1, context_
         }
     }
 });
-/*
-Copyright 2016 Google Inc. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at http://angular.io/license
-*/ 
 //# sourceMappingURL=hero.service.js.map

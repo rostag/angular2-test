@@ -4,6 +4,38 @@
 		"selected_items":
 		[
 			[
+				"style",
+				"styleUrls	property"
+			],
+			[
+				"sty",
+				"styleUrls	property"
+			],
+			[
+				"impo",
+				"import	imports a module …"
+			],
+			[
+				"l",
+				"link	let"
+			],
+			[
+				"H",
+				"HEROES	alias"
+			],
+			[
+				"nu",
+				"number	keyword"
+			],
+			[
+				"Hero",
+				"HeroService	alias"
+			],
+			[
+				"On",
+				"OnInit	alias"
+			],
+			[
 				"pro",
 				"providers	property"
 			],
@@ -18,10 +50,6 @@
 			[
 				"cons",
 				"constructor	keyword"
-			],
-			[
-				"impo",
-				"import	keyword"
 			],
 			[
 				"bo",
@@ -110,10 +138,6 @@
 			[
 				"jq",
 				"jquery"
-			],
-			[
-				"l",
-				"log"
 			],
 			[
 				"re",
@@ -259,22 +283,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/Users/rost/Desktop/Graphoid.html",
-			"settings":
-			{
-				"buffer_size": 1314,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "app.component.ts",
-			"settings":
-			{
-				"buffer_size": 1961,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -284,9 +292,13 @@
 	"command_palette":
 	{
 		"height": 392.0,
-		"last_filter": "",
+		"last_filter": "pret",
 		"selected_items":
 		[
+			[
+				"pret",
+				"HTMLPrettify"
+			],
 			[
 				"form",
 				"TypeScript: Format Document"
@@ -328,7 +340,7 @@
 				"Preferences: Browse Packages"
 			]
 		],
-		"width": 467.0
+		"width": 432.0
 	},
 	"console":
 	{
@@ -347,19 +359,43 @@
 		"side_bar_visible": false,
 		"status_bar_visible": false
 	},
+	"expanded_folders":
+	[
+		"/Users/rost/dev/angular2-5min",
+		"/Users/rost/dev/angular2-5min/app"
+	],
 	"file_history":
 	[
-		"/Users/rost/dev/angular2-5min/app/hero-detail.component.ts",
-		"/Users/rost/dev/angular2-5min/app/mock-heroes.ts",
-		"/Users/rost/dev/angular2-5min/app/hero.service.ts",
+		"/Users/rost/dev/angular2-5min/app/ng2-hero.sublime-project",
+		"/Users/rost/dev/angular2-5min/index.html",
 		"/Users/rost/dev/angular2-5min/app/app.component.ts",
+		"/Users/rost/dev/angular2-5min/app/hero-detail.component.ts",
+		"/Users/rost/dev/angular2-5min/app/heroes.component.css",
+		"/Users/rost/dev/angular2-5min/app/styles.css",
+		"/Users/rost/dev/angular2-5min/app/hero.service.ts",
+		"/Users/rost/dev/angular2-5min/app/hero.ts",
+		"/Users/rost/dev/angular2-5min/styles.css",
+		"/Users/rost/dev/angular2-5min/app/mock-heroes.ts",
+		"/Users/rost/dev/angular2-5min/app/main.ts",
+		"/Users/rost/dev/angular2-5min/app/app.component.html",
+		"/Users/rost/dev/angular2-5min/app/hero-detail.component.css",
+		"/Users/rost/dev/angular2-5min/app/dashboard.component.ts",
+		"/Users/rost/dev/angular2-5min/app/app.component.css",
+		"/Users/rost/dev/angular2-5min/app/dashboard.component.css",
+		"/Users/rost/dev/angular2-5min/app/heroes.component.ts",
+		"/Users/rost/dev/angular2-5min/app/heroes.component.js.map",
+		"/Users/rost/dev/angular2-5min/app/heroes.component.html",
+		"/Users/rost/dev/angular2-5min/app/dashboard.component.html",
+		"/Users/rost/dev/angular2-5min/app/hero-detail.component.html",
+		"/Users/rost/dev/angular2-5min/app/hero.service.js",
+		"/Users/rost/dev/angular2-5min/app/npm-start.sh",
+		"/Users/rost/dev/angular2-5min/app/app.component.js",
+		"/Users/rost/dev/angular2-5min/app/main.js",
+		"/Users/rost/dev/angular2-5min/app/list.component.ts",
+		"/Users/rost/Desktop/Graphoid.html",
 		"/Users/rost/Desktop/MongoDB + MariaDB",
 		"/Users/rost/Desktop/Lorenz Lessing",
 		"/Users/rost/dev/angular2-5min/app/mock-heroes.js",
-		"/Users/rost/dev/angular2-5min/app/main.ts",
-		"/Users/rost/dev/angular2-5min/index.html",
-		"/Users/rost/dev/angular2-5min/app/hero.ts",
-		"/Users/rost/dev/angular2-5min/styles.css",
 		"/Users/rost/dev/angular2-5min/tsconfig.json",
 		"/Users/rost/dev/angular2-5min/package.json",
 		"/Users/rost/dev/angular2-5min/typings.js",
@@ -396,21 +432,34 @@
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
 		"height": 93.0,
 		"where_history":
 		[
+			"",
+			"*.ts",
 			""
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"my-hero-detail",
+			"Google",
+			" '",
+			"';\n",
+			"AppComponent",
+			"ListService",
+			"heroes.component",
+			"HeroesComponent",
+			"my-app",
+			"AppComponent",
+			"app.component",
 			"hero.",
 			"drawPath",
 			"svg",
@@ -527,18 +576,7 @@
 			"se up",
 			" DEbugger",
 			"erAxis",
-			"tLength",
-			"segmentsSpacing",
-			"te 1",
-			"levelsSpacing: 1.3",
-			"segmentsSpacing: 0",
-			"segmentsSpacing: 1",
-			"segmentsSpacing: 0.96",
-			"segmentsSpacing",
-			"setPosFromPosMap",
-			"cylin",
-			"cube",
-			"rotat"
+			"tLength"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -546,6 +584,10 @@
 		"regex": false,
 		"replace_history":
 		[
+			"HeroesComponent",
+			"HeroService",
+			"list.component",
+			"ListComponent",
 			"\"",
 			", ",
 			"self.c",
@@ -560,79 +602,20 @@
 		"reverse": false,
 		"show_context": true,
 		"use_buffer2": true,
-		"whole_word": false,
+		"whole_word": true,
 		"wrap": true
 	},
 	"groups":
 	[
 		{
-			"selected": 1,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/Users/rost/Desktop/Graphoid.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1314,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								308,
-								308
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 10.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app.component.ts",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1961,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/TypeScript/TypeScript.tmLanguage",
-							"translate_tabs_to_spaces": false,
-							"use_tab_stops": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -681,7 +664,7 @@
 	"project": "ng2-hero.sublime-project",
 	"replace":
 	{
-		"height": 46.0
+		"height": 64.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -690,6 +673,22 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"inde",
+				"index.html"
+			],
+			[
+				"app",
+				"app/app.component.ts"
+			],
+			[
+				"hero.serv",
+				"app/hero.service.ts"
+			],
+			[
+				"hero.ser",
+				"app/hero.service.js"
+			],
 			[
 				"scroll",
 				"app/scrollspy.html"
@@ -743,10 +742,6 @@
 				"view1/view1.html"
 			],
 			[
-				"inde",
-				"index.html"
-			],
-			[
 				"index",
 				"index.html"
 			],
@@ -793,10 +788,6 @@
 			[
 				"cub",
 				"js/cube.js"
-			],
-			[
-				"app",
-				"js/app.js"
 			]
 		],
 		"width": 0.0
@@ -831,7 +822,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 163.0,
+	"side_bar_width": 251.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
