@@ -1,6 +1,6 @@
-import {Hero} from './hero';
+import {Leader} from './leader';
 
-export var HEROES: Hero[] = [
+export var LEADERS: Leader[] = [
 	{"id": 11, "name": "Mr. Nice"},
 	{"id": 12, "name": "Narco"},
 	{"id": 13, "name": "Bombasto"},
