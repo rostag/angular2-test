@@ -19,6 +19,7 @@
         padding: .3em 0;
         height: 1.6em;
         border-radius: 4px;
+        line-height: 0.5em;
     }
     
     .leaders li.selected:hover {
@@ -34,7 +35,7 @@
     
     .leaders .text {
         position: relative;
-        top: -3px;
+        top: -18px;
     }
     
     .leaders .badge {
@@ -50,4 +51,6 @@
         height: 1.8em;
         margin-right: .8em;
         border-radius: 4px 0 0 4px;
+        min-width: 1rem;
+        text-align: center;
     }

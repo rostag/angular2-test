@@ -38,5 +38,5 @@ import { LeaderDetailComponent } from './leader-detail.component';
 ])
 
 export class AppComponent {
-	title = 'Tour of Leaders 2';
+	title = 'Leaders';
 }

@@ -6,16 +6,16 @@ System.register([], function(exports_1, context_1) {
         setters:[],
         execute: function() {
             exports_1("LEADERS", LEADERS = [
-                { "id": 11, "name": "Mr. Nice" },
-                { "id": 12, "name": "Narco" },
-                { "id": 13, "name": "Bombasto" },
-                { "id": 14, "name": "Celeritas" },
-                { "id": 15, "name": "Magneta" },
-                { "id": 16, "name": "RubberMan" },
-                { "id": 17, "name": "Dynama" },
-                { "id": 18, "name": "Dr IQ" },
-                { "id": 19, "name": "Magma" },
-                { "id": 20, "name": "Tornado" }
+                { "id": 1, "name": "Mr. Nice" },
+                { "id": 2, "name": "Alex du'Pre" },
+                { "id": 3, "name": "Deane Beaton" },
+                { "id": 4, "name": "Kyle Schlomsky" },
+                { "id": 5, "name": "Nina Noberitze" },
+                { "id": 6, "name": "Ruslan" },
+                { "id": 7, "name": "Daniel" },
+                { "id": 8, "name": "Zelma" },
+                { "id": 9, "name": "Oles" },
+                { "id": 10, "name": "Tornado" }
             ]);
         }
     }

@@ -35,7 +35,7 @@ System.register(['angular2/core', 'angular2/router', './leader.service', './lead
         execute: function() {
             AppComponent = (function () {
                 function AppComponent() {
-                    this.title = 'Tour of Leaders 2';
+                    this.title = 'Leaders';
                 }
                 AppComponent = __decorate([
                     core_1.Component({
