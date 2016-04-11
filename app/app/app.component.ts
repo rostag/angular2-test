@@ -1,15 +1,15 @@
 import { Component }       from 'angular2/core';
 import { RouteConfig, ROUTER_DIRECTIVES, ROUTER_PROVIDERS } from 'angular2/router';
 
-import { LeaderService }     from './leader.service';
-import { LeadersComponent } from './leaders.component';
-import { DashboardComponent } from './dashboard.component';
-import { LeaderDetailComponent } from './leader-detail.component';
+import { LeaderService }     from '../leader/leader.service';
+import { LeadersComponent } from '../leaders/leaders.component';
+import { DashboardComponent } from '../dashboard/dashboard.component';
+import { LeaderDetailComponent } from '../leader-detail/leader-detail.component';
 
 @Component({
 	selector: 'my-app',
-	templateUrl: 'app/app.component.html',
-	styleUrls: ['app/app.component.css'],
+	templateUrl: 'app/app/app.component.html',
+	styleUrls: ['app/app/app.component.css'],
 	directives: [
 		ROUTER_DIRECTIVES
 	],

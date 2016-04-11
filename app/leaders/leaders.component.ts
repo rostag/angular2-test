@@ -1,14 +1,14 @@
 import {Component, OnInit} from 'angular2/core';
 import {Router} from 'angular2/router';
 
-import {Leader} from './leader';
-import {LeaderDetailComponent} from './leader-detail.component';
-import {LeaderService} from './leader.service';
+import {Leader} from '../leader/leader';
+import {LeaderDetailComponent} from '../leader-detail/leader-detail.component';
+import {LeaderService} from '../leader/leader.service';
 
 @Component({
   selector: 'my-leaders',
-  templateUrl: 'app/leaders.component.html',
-  styleUrls: ['app/leaders.component.css'],
+  templateUrl: 'app/leaders/leaders.component.html',
+  styleUrls: ['app/leaders/leaders.component.css'],
   directives: [LeaderDetailComponent]
 })
 export class LeadersComponent implements OnInit {

@@ -1,4 +1,4 @@
-import {Leader} from './leader';
+import {Leader} from '../leader/leader';
 
 export var LEADERS: Leader[] = [
 	{"id": 1, "name": "Mr. Nice"},

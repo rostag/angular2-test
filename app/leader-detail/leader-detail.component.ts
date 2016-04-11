@@ -1,12 +1,12 @@
 import {Component, Input, OnInit} from 'angular2/core';
 import {RouteParams} from 'angular2/router';
 
-import {Leader} from './leader';
-import {LeaderService} from './leader.service';
+import {Leader} from '../leader/leader';
+import {LeaderService} from '../leader/leader.service';
 
 @Component({
-  templateUrl: 'app/leader-detail.component.html',
-  styleUrls: ['app/leader-detail.component.css']
+  templateUrl: 'app/leader-detail/leader-detail.component.html',
+  styleUrls: ['app/leader-detail/leader-detail.component.css']
 })
 
 export class LeaderDetailComponent implements OnInit {

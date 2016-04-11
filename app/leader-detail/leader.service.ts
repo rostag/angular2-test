@@ -1,7 +1,7 @@
 import {Injectable} from 'angular2/core';
 
-import {Leader} from './leader';
-import {LEADERS} from './mock-leaders';
+import {Leader} from '../leader/leader';
+import {LEADERS} from '../leaders/mock-leaders';
 
 @Injectable()
 export class LeaderService {
