@@ -17,7 +17,7 @@ export class LeadersComponent implements OnInit {
 
   constructor(
     private _leaderService: LeaderService,
-    private _router: Router ) {
+    private _router: Router) {
   }
 
   getLeaders() {
